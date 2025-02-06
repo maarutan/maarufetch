@@ -40,8 +40,7 @@ This Python script displays beautiful system information in the terminal using A
 ## 📜 Dependencies
 
 - Python 3
-- `xprop` (to detect the window manager)
-- `pacman` (to count installed packages in Arch Linux)
+  or other ...
 
 ## 🛠 Possible Improvements
 
