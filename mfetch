@@ -78,5 +78,28 @@ def fetch():
     """)
 
 
+def check_font():
+    font_list = [
+        "Nerd",
+        "NerdFont",
+        "Nerd Font",
+        "nerd font",
+        "nerdfont",
+        "nerd",
+    ]
+
+    font_info = shell("fc-list :family")
+
+    if any(font in font_info for font in font_list):
+        # print("\n".join(f for f in font_list if f in font_info))
+        return True
+    else:
+        print("\n\nNerd Font not found")
+        print("Install it from https://www.nerdfonts.com")
+        print("-" * 30)
+        print(f"{GREEN}sudo pacman -S ttf-nerd-fonts-symbols{GREEN}\n\n")
+
+
 if __name__ == "__main__":
+    check_font()
     fetch()
