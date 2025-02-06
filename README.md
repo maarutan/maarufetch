@@ -37,6 +37,16 @@ This Python script displays beautiful system information in the terminal using A
    ./mfetch
    ```
 
+---
+
+if u want usage of default
+
+1. move script to /usr/bin
+   ```sh
+   sudo cp ./mfetch /usr/bin/
+   mfetch
+   ```
+
 ## 📜 Dependencies
 
 - Python 3
