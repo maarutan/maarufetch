@@ -14,27 +14,27 @@ This Python script displays beautiful system information in the terminal using A
 
 1. Install the package using `yay`:
    ```sh
-   yay -S maarufetch
+   yay -S mfetch
    ```
 2. Run the script:
    ```sh
-   maarufetch
+   ./mfetch
    ```
 
 ### Install via Git
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/fetch-script.git
-   cd fetch-script
+   git clone https://github.com/maarutan/maarufetch.git
+   cd maarufetch
    ```
 2. Make the script executable:
    ```sh
-   chmod +x fetch.py
+   chmod +x mfetch
    ```
 3. Run the script:
    ```sh
-   ./fetch
+   ./mfetch
    ```
 
 ## 📜 Dependencies
